@@ -60,15 +60,9 @@ The manager view will allow access to important information and inventory managm
 ![Add item view](images/bamazon-manager-add.JPG)
 
 ## Need help or wish to contribute?
-=======
-    ![alt text](images/Bamazon-customer.JPG?raw=true 'customer view')
->>>>>>> a6219fae0c99b43c583b4802a1bf49900c5a0e3e
 
 This project has been created and is maintained by myself, Alex Preissler. If you need any help or wish to contribute to the development of this project feel free to contact me.
 
-<<<<<<< HEAD
 * Email: AlexJPreissler@Outlook.com
 * GitHub: Alex-Preissler
-=======
-### Manager View:
->>>>>>> a6219fae0c99b43c583b4802a1bf49900c5a0e3e
+
