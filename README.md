@@ -8,7 +8,7 @@ Bamazon is an inventory managment and ordering program that will be able to help
 
 ### Customer View:
 
-    ![alt text](/images/Bamazon-customer.JPG?raw=true 'customer view')
+    ![alt text](images/Bamazon-customer.JPG?raw=true 'customer view')
 
 
 ### Manager View:
