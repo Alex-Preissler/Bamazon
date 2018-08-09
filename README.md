@@ -1,10 +1,10 @@
-# Bamazon
+# **Bamazon**
 
-## What is Bamazon?
+## **What is Bamazon?**
 
 Bamazon is an inventory managment and ordering program that will be able to help businesses keep track of inventory and fulfill electronically submitted orders automatically. Thus, providing more accurate, up to date inventory information and faster order fulfillment allowing for increased sales productivity.
 
-## Installing Bamazon:
+## **Installing Bamazon:**
 
 * Bamazon is a command line interface progam. In order to install bamazon simply download the files to your system then follow these steps.
 
@@ -20,9 +20,9 @@ Bamazon is an inventory managment and ordering program that will be able to help
 
 6. Launch the file you wish to use in the command line using node/bamazonManager.js for manager view or node/customer.js for customer view.
 
-## How to use Bamazon:
+## **How to use Bamazon:**
 
-### Customer View:
+### **Customer View:**
 
 This image below demonstrates the basic flow a user will follow using the customer view:
 
@@ -34,7 +34,7 @@ This image below demonstrates the basic flow a user will follow using the custom
 ![Customer View](images/Bamazon-customer.JPG)
 
 
-### Manager View:
+### **Manager View:**
 
 The manager view will allow access to important information and inventory managment functions.
 
@@ -58,7 +58,7 @@ The manager view will allow access to important information and inventory managm
 
 ![Add item view](images/bamazon-manager-add.JPG)
 
-## Need help or wish to contribute?
+## **Need help or wish to contribute?**
 
 This project has been created and is maintained by myself, Alex Preissler. If you need any help or wish to contribute to the development of this project feel free to contact me.
 
