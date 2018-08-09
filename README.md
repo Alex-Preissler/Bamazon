@@ -24,6 +24,7 @@ Bamazon is an inventory managment and ordering program that will be able to help
 
 ### Customer View:
 
+<<<<<<< HEAD
 This image below demonstrates the basic flow a user will follow using the customer view:
 
 1. User will be presented with a list of all available items with important info.
@@ -59,8 +60,15 @@ The manager view will allow access to important information and inventory managm
 ![Add item view](images/bamazon-manager-add.JPG)
 
 ## Need help or wish to contribute?
+=======
+    ![alt text](images/Bamazon-customer.JPG?raw=true 'customer view')
+>>>>>>> a6219fae0c99b43c583b4802a1bf49900c5a0e3e
 
 This project has been created and is maintained by myself, Alex Preissler. If you need any help or wish to contribute to the development of this project feel free to contact me.
 
+<<<<<<< HEAD
 * Email: AlexJPreissler@Outlook.com
 * GitHub: Alex-Preissler
+=======
+### Manager View:
+>>>>>>> a6219fae0c99b43c583b4802a1bf49900c5a0e3e
