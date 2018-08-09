@@ -9,8 +9,8 @@ var cTable = require('console.table');
 var connection = mysql.createConnection({
     host: 'localhost',
     port: '3306',
-    user: 'Alex-Preissler',
-    password: 'Paintball426*',
+    user: '',
+    password: '',
     database: 'bamazonDB'
 });
 
@@ -133,42 +133,7 @@ function addInventory() {
         console.table(['ID', 'Product Name', 'Department', 'Price', 'Stock'], resultArray);
 
         //Requests product id from user.
-        inquirer.prompt([
-            {
-                name: 'itemid',
-                type: 'input',
-                message: 'Please enter the product id. (type "exit" to return to main menu)',
-                validate(answer) {
-
-                    //validates the id provided exists in the database. If exit is entered, returns to main().
-                    var valid = false;
-                    var exit = answer.toLowerCase();
-                    id = parseInt(answer);
-
-                    if (exit == "exit") {
-                        return main();
-                    }
-
-                    for (var j = 0; j < idCheckArray.length; j++) {
-
-                        if (answer == idCheckArray[j]) {
-
-                            valid = true;
-
-                        } else {
-                        }
-                    }
-
-                    if (valid === true && exit != "exit") {
-
-                        return (true);
-
-                    } else {
-
-                        return ("Item ID does not exist. Please enter a valid ID.");
-                    }
-                }
-            },
+         
             {   //requests amount user wishes to add.
                 name: 'amount',
                 type: 'input',

@@ -1,3 +1,4 @@
+//NOTE: using 'exit' to return to main() from second inquirer prompt causes memory leak and multiple instances of inquirer to display.
 //npm packages
 var inquirer = require('inquirer');
 var mysql = require('mysql');
@@ -7,8 +8,8 @@ var cTable = require('console.table');
 var connection = mysql.createConnection({
     host: 'localhost',
     port: '3306',
-    user: 'Alex-Preissler',
-    password: 'Paintball426*',
+    user: '',
+    password: '',
     database: 'bamazonDB'
 });
 
