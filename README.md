@@ -24,7 +24,6 @@ Bamazon is an inventory managment and ordering program that will be able to help
 
 ### Customer View:
 
-<<<<<<< HEAD
 This image below demonstrates the basic flow a user will follow using the customer view:
 
 1. User will be presented with a list of all available items with important info.
